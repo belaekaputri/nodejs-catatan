@@ -1,0 +1,22 @@
+caro buwek project node.js jo npm
+-buwek folder kosong
+arahan git bash sudahtu buwek 
+-npm init
+-ok
+
+caro majalanan javascript di node.js mangunoan REPL(sadolah jenis terminal)
+-node (parintah awal)
+console.log("hello world");
+manggunoan .editor(ndak ciek barus ngodingnyo do)
+- .editor 
+const sapa=(name)=>{
+    return `hey ${name}`; 
+}
+- ctrl+d finish ctrl+c cance;
+-panggia function sapa("namakau");
+-.exit keluar dari REPL
+
+manjalan javascript di file node.js
+-buat file baru ex index.js
+-isi code javascript
+-untuak majalanannyo buwek node index.js
