@@ -1,0 +1,16 @@
+//hampia mirip custom event dom!!! manuruik awak 
+//node js menyediakan EventEmitter class yg merupakan events core module
+////const {EventEmitter} = require('events');
+//const myEventEmitter= new EventEmitter();
+//setiap instance dari EventEmitter akan memiliki fungsi on.
+
+/*const {EventEmitter}=require('events');
+const myEventEmitter= new EventEmitter();
+
+//fungsi yg akan dijalankan ketika namaevent coffe-order terjadi
+const makeCoffe=({name})=>{
+    console.log(`Kopi ${name} telah dibuat!`);
+};
+
+//mendaftarkan fungsi makeCoffe sebagai listener event coffe-order
+myEventEmitter.on('coffe-order',makeCoffe); // 2 argumen patamu nama eventnyo yg kaduo fungsi yg dijalankan untuak event itu*/
