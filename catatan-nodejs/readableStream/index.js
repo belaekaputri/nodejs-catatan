@@ -1,3 +1,7 @@
+/*
+Teknik ini tidak membaca berkas secara sekaligus, tapi dengan mengirim bagian demi bagian. Cara inilah yang digunakan oleh YouTube agar video dapat ditampilkan seketika kepada pengguna.
+*/
+
 const fs = require('fs');
  
 const readableStream = fs.createReadStream('./article.txt', {
