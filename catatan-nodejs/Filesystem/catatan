@@ -1,0 +1,18 @@
+//node js menyediakan module fs-> filesystem
+//mengakses berkas fs.readFile() memiliki 3 argumen yakni lokasi berkas,encoding, dan callback function(if gagal di akses)
+const fs=require('fs');
+
+const fileReadCallback=(error,data)=>{
+    if(error){
+        console.log('Gagal membaca berkas');
+        return;
+    }
+    console.log(data);
+};
+fs.readFile('todo.txt','UTF-8',fileReadCallback);
+
+//versi menthod synchronous fs.readFileSync()
+const fs= require('fs');
+
+const data= fs.readFileSync('todo.txt','UTF-8');
+console.log(data);
